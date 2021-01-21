@@ -20,5 +20,9 @@ const book = {
     title   : "1984",
     author  : "George Orwell",
     isAvailable: false
-}
+    checkIn: function(){this.isAvailablae = true;},
+    checkOut: function(){this.isAvailablae = false;}
+};
+console.log("Book type:",typeof book);
+book
 */

@@ -1,5 +1,5 @@
 const cat = {
-    name : "Pipey",
+    name : "LYN",
     age: 8,
     whatName(){
         return this.name
@@ -7,6 +7,6 @@ const cat = {
 }
 
 console.log(cat.whatName())
-// Output: Pipey
-cat.name = "Nezzar"
+// Output: LYN
+cat.name = "WANG"
 console.log(cat.whatName())
